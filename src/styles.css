@@ -76,9 +76,9 @@ a {
 }
 
 banner-div {
-    margin-top: .7rem;
+  margin-top: 0.7rem;
 }
 #banner1 {
-    height: 400px;
-    width: 100%;
+  height: 400px;
+  width: 100%;
 }
