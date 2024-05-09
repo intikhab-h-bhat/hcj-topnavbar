@@ -15,7 +15,8 @@ body {
 
 h1 {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
   color: #1c1678;
 }
 
@@ -28,6 +29,7 @@ nav {
   background: #f6f5f2;
   box-shadow: 0 5px 15px #634b01;
 }
+
 .nav-main {
   max-width: 95%;
   margin: 0 0.2rem 0 0.2rem;
@@ -35,12 +37,14 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
 .nav-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 230px;
 }
+
 .menu {
   height: auto;
   display: flex;
@@ -65,20 +69,41 @@ a {
   margin: 0 0.5rem;
   transition: all 0.3s linear;
 }
+
 .menu a:hover {
   background: #074173;
   color: #9ed1f5;
 }
+
 .welcome-msg {
   display: flex;
   justify-content: center;
   font-family: sans-serif;
 }
 
-.banner-div {
-  margin-top: 0.7rem;
+banner-div {
+  margin-top: .6rem;
+  position: relative;
 }
+
+.image-credit {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px;
+  margin: 0;
+}
+
 #banner1 {
   height: 400px;
   width: 100%;
+}
+
+footer {
+  background-color: #E4C59E;
+  color: #803D3B;
+  text-align: left;
+  padding: 5px;
+  margin-top: 99px;
 }
